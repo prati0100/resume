@@ -3,8 +3,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage{setspace}
 \usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{changepage}
 
-\usepackage[left=1in, right=1in, bottom=1.25in, top=1.25in]{geometry}
+\usepackage[left=0.25in, right=0.5in, bottom=1.25in, top=1.25in]{geometry}
 
 %Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
 \pagenumbering{gobble}
@@ -15,7 +17,7 @@
 
 %%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
 
-\noindent  \LARGE{\textbf{Pratyush Yadav}}  \\
+\noindent  \hspace{0.25in} \LARGE{\textbf{Pratyush Yadav}}  \\
 \vspace{-2ex}
 \hline
 \normalsize
@@ -35,7 +37,7 @@
 %%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
 
-\noindent \begin{tabular}{@{} l l}
+\noindent \begin{tabularx}{\textwidth}{l X}
  \Large{Education} & \textbf{Manipal Institute of Technology} \hfill 2016-2020  \\
      & Bachelor of Technology \\
      & Computer Science and Engineering \\
@@ -55,16 +57,16 @@
     & \textbf{Past Experience:} \\
     & Java, Android App Development, Git, FreeBSD, Xen device drivers \\
     & \\
- \Large{Projects} & \textbf{\href{https://github.com/prati0100/OS161}{OS/161}} \vspace{1ex} \\
-    & \parbox{5.0in}{OS/161 is a teaching operating system developed by the people at Harvard for their OS class. As a brief rundown of what I did as a part of the assignments I did that on my own during my free time: Implemented address spaces and virtual memory, process support and system calls like open()/close(), read()/write() and fork(), exec().} \\
+ \Large{Projects} \vspace{-1.5ex} & \textbf{\href{https://github.com/prati0100/OS161}{OS/161}} \\
+    \vspace{-3ex} & \begin{adjustwidth}{}{}OS/161 is a teaching operating system developed by the people at Harvard for their OS class. As a brief rundown of what I did as a part of the assignments I did that on my own during my free time: Implemented address spaces and virtual memory, process support and system calls like open()/close(), read()/write() and fork(), exec().\end{adjustwidth} \\
     & \\
-    & \textbf{\href{https://github.com/prati0100/P2PChat}{P2PChat}} \vspace{1ex} \\
-    & \parbox{5.0in}{P2PChat is a simple terminal-based peer to peer chat application written in Java as a part of my Objected Oriented Programming class.} \\
+    \vspace{-1.5ex} & \textbf{\href{https://github.com/prati0100/P2PChat}{P2PChat}} \\
+    \vspace{-3ex} & \begin{adjustwidth}{}{}P2PChat is a simple terminal-based peer to peer chat application written in Java as a part of my Objected Oriented Programming class.\end{adjustwidth} \\
     & \\
-    & \textbf{\href{https://github.com/prati0100/EventManager}{Event Manager}} \vspace{1ex} \\
-    & \parbox{5.0in}{Event manager is an event management app I created with a classmate as a part of our database systems class.} \\
+    \vspace{-1.5ex} & \textbf{\href{https://github.com/prati0100/EventManager}{Event Manager}} \\
+    \vspace{-3ex} & \begin{adjustwidth}{}{}Event manager is an event management app I created with a classmate as a part of our database systems class.\end{adjustwidth} \\
     & \\
 
-\end{tabular}
+\end{tabularx}
 
 \end{document}
