@@ -5,6 +5,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{tabularx}
 \usepackage{changepage}
+\usepackage{enumitem}
 
 \usepackage[left=0.25in, right=0.5in, bottom=1.25in, top=1.25in]{geometry}
 
@@ -45,8 +46,13 @@
      & \\
  \Large{Experience}    & \textbf{Google Summer of Code 2018} \hfill April - August 2018 \\
     & The FreeBSD Foundation \\
-    & Imported Xen grant-table bus\_dma(9) handlers from OpenBSD. \\
-    & \\
+    & Imported Xen grant-table bus\_dma(9) handlers from OpenBSD. \vspace{-1ex}
+    \begin{itemize}[label={--}]
+    \setlength\itemsep{-0.25em}
+        \item Grant tables are a mechanism used to communicate between the Xen hypervisor VMs using shared pages.
+        \item Wrote an implementation of the FreeBSD kernel's bus\_dma(9) interface integrating the grant table mechanism with the interface.
+        \item Updated the Xen paravirtualized I/O drivers to use the new implementation, resulting in a more transparent integration with the rest of the OS.
+    \end{itemize} \\
     & \textbf{ACM Student Chapter Manipal} \hfill April 2018 -  Present \\
     & President \\
     & Organize and coordinate technical workshops, competitions and events. \\
@@ -58,13 +64,13 @@
     & Java, Android App Development, Git, FreeBSD, Xen device drivers \\
     & \\
  \Large{Projects} \vspace{-1.5ex} & \textbf{\href{https://github.com/prati0100/OS161}{OS/161}} \\
-    \vspace{-3ex} & \begin{adjustwidth}{}{}OS/161 is a teaching operating system developed by the people at Harvard for their OS class. As a brief rundown of what I did as a part of the assignments I did that on my own during my free time: Implemented address spaces and virtual memory, process support and system calls like open()/close(), read()/write() and fork(), exec().\end{adjustwidth} \\
+    \vspace{-3ex} & \begin{adjustwidth}{}{}Implemented address spaces and virtual memory, process support and system calls like open()/close(), read()/write() and fork(), exec().\end{adjustwidth} \\
     & \\
     \vspace{-1.5ex} & \textbf{\href{https://github.com/prati0100/P2PChat}{P2PChat}} \\
-    \vspace{-3ex} & \begin{adjustwidth}{}{}P2PChat is a simple terminal-based peer to peer chat application written in Java as a part of my Objected Oriented Programming class.\end{adjustwidth} \\
+    \vspace{-3ex} & \begin{adjustwidth}{}{}A simple terminal-based peer to peer chat application written in Java as a part of my Objected Oriented Programming class.\end{adjustwidth} \\
     & \\
     \vspace{-1.5ex} & \textbf{\href{https://github.com/prati0100/EventManager}{Event Manager}} \\
-    \vspace{-3ex} & \begin{adjustwidth}{}{}Event manager is an event management app I created with a classmate as a part of our database systems class.\end{adjustwidth} \\
+    \vspace{-3ex} & \begin{adjustwidth}{}{}An event management app I created with a classmate as a part of our database systems class to demonstrate Android's SQLite support.\end{adjustwidth} \\
     & \\
 
 \end{tabularx}
