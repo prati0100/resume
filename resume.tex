@@ -74,10 +74,23 @@
     \vspace{-1.5ex} & \textbf{\href{https://github.com/prati0100/P2PChat}{P2PChat}} \\
     \vspace{-3ex} & \begin{adjustwidth}{}{}A simple terminal-based peer to peer chat application written in Java as a part of my Objected Oriented Programming class.\end{adjustwidth} \\
     & \\
-    \vspace{-1.5ex} & \textbf{\href{https://github.com/prati0100/EventManager}{Event Manager}} \\
-    \vspace{-3ex} & \begin{adjustwidth}{}{}An event management app I created with a classmate as a part of our database systems class to demonstrate Android's SQLite support.\end{adjustwidth} \\
-    & \\
-
+    % TODO: This thing with vspaces is too hacky. Try to figure out a more elegent solution when you find the time.
+    & \vspace{-3ex} \textbf{\href{https://github.com/prati0100/psh}{PSH}} \\
+    & \vspace{-2.5ex} psh is a simple shell written in C as a fun learning exercise. It can: \vspace{-0.75ex}
+    \begin{itemize}[label={--}]
+    \setlength\itemsep{-0.25em}
+        \item Execute any binary in the PATH with the ability to pass command line arguments.
+        \item Add aliases for commands.
+        \item Read from the .pshrc file on startup to set up aliases, etc.
+    \end{itemize} \\
 \end{tabularx}
 
+% We need to split the document in two pages, so we need two tables
+\noindent \begin{tabularx}{\textwidth}{l X}
+\Large{Projects} \vspace{-1.5ex} & \textbf{\href{https://github.com/prati0100/EventManager}{Event Manager}} \\
+& \begin{adjustwidth}{}{}An event management app I created with a classmate as a part of our database systems class to demonstrate Android's SQLite support.\end{adjustwidth} \\
+    & \\
+\end{tabularx}
+
+\centerline{Last updated 21 September, 2018}
 \end{document}
