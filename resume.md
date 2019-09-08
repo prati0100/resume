@@ -60,7 +60,7 @@ April - October 2019
 President  
 April 2018 - March 2019
 
-I organize and coordinate a team of about 40 people to host technical
+Organized and coordinated a team of about 40 people to host technical
 workshops, competitions and events.
 
 # Skills
