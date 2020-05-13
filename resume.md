@@ -25,6 +25,12 @@ CGPA: 8.75
 
 ## Texas Instruments
 Software Engineering Intern  
+January - June 2020
+
+Device driver support on Linux and U-Boot for various TI platforms.
+
+## Texas Instruments
+Software Engineering Intern  
 May - July 2019
 
 Emulation of SMMUv3 Stage 1 Translations in Jailhouse.
