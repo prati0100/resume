@@ -66,6 +66,11 @@ Hypervisor
 
 # Projects
 
+## Git Gui
+Git Gui is the default GUI for Git. I maintain the project, review new
+patches, send new features and bugfixes, and help with integration in the 
+upstream Git and Git for Windows projects.
+
 ## OS/161
 OS/161 is a teaching OS created by Harvard for their OS course assignments.
 
