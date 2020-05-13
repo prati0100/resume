@@ -19,7 +19,7 @@ classoption: "12pt"
 2016-2020  
 Bachelor of Technology  
 Computer Science and Engineering  
-CGPA: 8.80
+CGPA: 8.75
 
 # Experience
 
