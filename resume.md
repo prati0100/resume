@@ -58,7 +58,7 @@ workshops, competitions and events.
 # Skills
 
 ## Working Skills
-C, Operating Systems, Git, Tcl
+C, Linux kernel, U-Boot, Git, Tcl
 
 ## Past Experience
 Java, Android App Development, Xen device drivers, FreeBSD kernel, Jailhouse
