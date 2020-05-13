@@ -48,14 +48,6 @@ Imported Xen grant-table bus_dma(9) handlers from OpenBSD.
 - Updated the Xen paravirtualized I/O drivers to use the new implementation,
   resulting in a more transparent integration with the rest of the OS.
 
-## FreeBSD
-Contributor  
-April - October 2019
-
-- Imported the Xen grant-table bus dma(9) handlers from OpenBSD (GSoC 2018).
-- Multiple bug fixes to the Xen paravirtualized grant table, block device,
-  and network device drivers.
-
 ## ACM Student Chapter Manipal
 President  
 April 2018 - March 2019
