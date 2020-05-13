@@ -24,7 +24,7 @@ CGPA: 8.75
 # Experience
 
 ## Texas Instruments
-Summer Intern  
+Software Engineering Intern  
 May - July 2019
 
 Emulation of SMMUv3 Stage 1 Translations in Jailhouse.
