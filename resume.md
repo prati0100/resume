@@ -26,7 +26,14 @@ CGPA: 8.75
 Software Engineering Intern  
 January - June 2020
 
-Device driver support on Linux and U-Boot for various TI platforms.
+Device driver development for Linux and U-Boot for various TI platforms.
+
+- Added Octal DDR and xSPI protocol support to Linux's SPI NOR framework.
+- Added Octal DDR protocol support in Cadence OSPI controller used in multiple
+  TI platforms.
+- Improved support for regmap (register map) access in U-Boot.
+- Upstreamed new APIs for various frameworks in U-Boot like regmap, gpio, reset,
+  mux.
 
 ## Texas Instruments
 Software Engineering Intern  
