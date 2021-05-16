@@ -10,7 +10,6 @@ classoption: "12pt"
 # Contact
 
 - Email: [me@yadavpratyush.com](mailto:me@yadavpratyush.com)
-- Website: [https://yadavpratyush.com](https://yadavpratyush.com)
 - GitHub: [https://github.com/prati0100](https://github.com/prati0100)
 
 # Education
