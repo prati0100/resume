@@ -24,7 +24,7 @@ CGPA: 8.75
 
 ## Texas Instruments
 Software Engineer  
-June 2020 - Now
+July 2020 - Now
 
 Device driver development for Linux and U-Boot for various TI platforms.
 
