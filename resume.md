@@ -40,6 +40,14 @@ Device driver development for Linux and U-Boot for various TI platforms.
 - Implemented Cadence DPHY Rx driver to allow capturing high speed serial data
   from MIPI CSI-2 input port on J721E.
 
+## Git Gui
+Maintainer  
+September 2019 - Now
+
+Git Gui is the default GUI for Git. I maintain the project, review patches, add
+new features and bugfixes, and help with integration in the upstream Git and Git
+for Windows projects.
+
 ## Texas Instruments
 Software Engineering Intern  
 January - June 2020
@@ -95,11 +103,6 @@ Java, Android App Development, Xen device drivers, FreeBSD kernel, Jailhouse
 Hypervisor
 
 # Projects
-
-## Git Gui
-Git Gui is the default GUI for Git. I maintain the project, review new
-patches, send new features and bugfixes, and help with integration in the 
-upstream Git and Git for Windows projects.
 
 ## OS/161
 OS/161 is a teaching OS created by Harvard for their OS course assignments.
