@@ -32,7 +32,7 @@ Device driver development for Linux and U-Boot for various TI platforms.
   speeds. This improved read speeds by about 10x.
 - Converted the OSPI PHY calibration algorithm to use binary search. This nearly
   halved the time taken to calibrate the PHY.
-- Actively participate in core reviews for Linux's SPI and SPI NOR frameworks.
+- Actively participate in code reviews for Linux's SPI and SPI NOR frameworks.
   Made a part of the Linux SPI NOR core developer group because the Linux
   maintainers like the quality of my reviews and patches.
 - Implemented CSI-2 capture support for the J721E EVM using the Video for Linux 2
