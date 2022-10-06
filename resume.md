@@ -51,6 +51,7 @@ for Windows projects.
 
 ## Texas Instruments
 Software Engineering Intern  
+Bangalore, India  
 January - June 2020
 
 Device driver development for Linux and U-Boot for various TI platforms.
@@ -64,6 +65,7 @@ Device driver development for Linux and U-Boot for various TI platforms.
 
 ## Texas Instruments
 Software Engineering Intern  
+Bangalore, India  
 May - July 2019
 
 Emulation of SMMUv3 Stage 1 Translations in Jailhouse.
