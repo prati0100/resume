@@ -23,23 +23,31 @@ CGPA: 8.75
 
 # Experience
 
+## Amazon Web Services
+Linux Kernel Developer  
+Dresden, Germany  
+August 2022 - Now
+
+Working on Linux kernel running on AWS's fleet of millions of hosts.
+
 ## Texas Instruments
 Software Engineer  
-July 2020 - Now
+Bangalore, India  
+July 2020 - August 2022
 
 Device driver development for Linux and U-Boot for various TI platforms.
 
+- Mainline kernel maintainer for SPI NOR subsystem.
 - Implemented OSPI PHY calibration algorithm support to enable high SPI clock
   speeds. This improved read speeds by about 10x.
 - Converted the OSPI PHY calibration algorithm to use binary search. This nearly
   halved the time taken to calibrate the PHY.
-- Actively participate in code reviews for Linux's SPI and SPI NOR frameworks.
-  Made a part of the Linux SPI NOR core developer group because the Linux
-  maintainers like the quality of my reviews and patches.
 - Implemented CSI-2 capture support for the J721E EVM using the Video for Linux 2
   (V4L2) API.
 - Implemented Cadence DPHY Rx driver to allow capturing high speed serial data
   from MIPI CSI-2 input port on J721E.
+- Implemented multiplexed stream support for J721E using V4L2 allowing capture
+  from up to 8 cameras simultaneously.
 
 ## Git Gui
 Maintainer  
