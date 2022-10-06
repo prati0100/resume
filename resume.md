@@ -102,23 +102,3 @@ C, Linux kernel, U-Boot, Git, Tcl/Tk
 ## Past Experience
 Java, Android App Development, Xen device drivers, FreeBSD kernel, Jailhouse
 Hypervisor
-
-# Projects
-
-## OS/161
-OS/161 is a teaching OS created by Harvard for their OS course assignments.
-
-- Implemented address spaces and the virtual memory subsystem.
-- Implemented process support and system calls like fork(), exec(), read(),
-  write(), etc.
-
-## P2PChat
-A simple terminal-based peer to peer chat application written in Java as a
-part of my Objected Oriented Programming class.
-
-## PSH
-psh is a simple shell written in C as a fun learning exercise. It can:
-
-- Execute any binary in the PATH with the ability to pass command line arguments.
-- Add aliases for commands.
-- Read from the .pshrc file on startup to set up aliases, etc.
