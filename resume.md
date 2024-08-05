@@ -28,7 +28,22 @@ Linux Kernel Developer
 Dresden, Germany  
 August 2022 - Now
 
-Working on Linux kernel running on AWS's fleet of millions of hosts.
+Working on Linux kernel running on AWS's fleet of millions of hosts. Among other
+things, my work includes:
+
+- Performance and security of the Amazon Linux kernel. The distribution is used
+  by millions of hosts both inside AWS and external EC2 customers. Every CPU
+  cycle and every CVE matters.
+- Live patching kernel vulnerabilities. Live patches serve to change unplanned
+  maintenance events into planned ones. Each live patch must be hand crafted to
+  ensure it works as expected on a running system.
+- Userspace memory persistence over kexec. Working on new kernel features that
+  make it faster to get a service live after a reboot.
+- Security of Xen Dom0 hosts used by some EC2 platforms. This involves both
+  reactive and proactive analysis of vulnerabilities.
+- Discovered
+  [XSA-448/CVE-2023-46848](https://xenbits.xen.org/xsa/advisory-448.html).
+  Worked with the Xen Security Team to fix the issue.
 
 ## Texas Instruments
 Software Engineer  
