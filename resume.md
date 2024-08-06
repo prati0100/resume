@@ -13,14 +13,6 @@ classoption: "12pt"
 - Email: [prati0100@gmail.com](mailto:prati0100@gmail.com)
 - GitHub: [https://github.com/prati0100](https://github.com/prati0100)
 
-# Education
-
-## Manipal Institute of Technology
-2016-2020  
-Bachelor of Technology  
-Computer Science and Engineering  
-CGPA: 8.75
-
 # Experience
 
 ## Amazon Web Services
@@ -64,14 +56,6 @@ Device driver development for Linux and U-Boot for various TI platforms.
 - Implemented multiplexed stream support for J721E using V4L2 allowing capture
   from up to 8 cameras simultaneously.
 
-## Git Gui
-Maintainer  
-September 2019 - Now
-
-Git Gui is the default GUI for Git. I maintain the project, review patches, add
-new features and bugfixes, and help with integration in the upstream Git and Git
-for Windows projects.
-
 ## Texas Instruments
 Software Engineering Intern  
 Bangalore, India  
@@ -99,6 +83,15 @@ Emulation of SMMUv3 Stage 1 Translations in Jailhouse.
 - Perform policing on the access to SMMU each guest cell so the cells are
   protected from each other.
 
+## Git Gui
+Maintainer  
+September 2019 - May 2024
+
+Git Gui is the default GUI for Git. I maintained the project from 2019 to 2024.
+This involved reviewing patches, adding new features and bugfixes, fixing
+vulnerabilities, and helping with integration in the upstream Git and Git for
+Windows projects.
+
 ## Google Summer of Code 2018
 The FreeBSD Foundation  
 April - August 2019
@@ -112,18 +105,18 @@ Imported Xen grant-table bus_dma(9) handlers from OpenBSD.
 - Updated the Xen paravirtualized I/O drivers to use the new implementation,
   resulting in a more transparent integration with the rest of the OS.
 
-## ACM Student Chapter Manipal
-President  
-April 2018 - March 2019
+# Education
 
-Organized and coordinated a team of about 40 people to host technical
-workshops, competitions and events.
+## Manipal Institute of Technology
+2016-2020  
+Bachelor of Technology  
+Computer Science and Engineering  
+CGPA: 8.75
 
 # Skills
 
 ## Working Skills
-C, Linux kernel, U-Boot, Git, Tcl/Tk
+C, Python, Linux kernel, Hypervisors, Security, U-Boot, Git
 
 ## Past Experience
-Java, Android App Development, Xen device drivers, FreeBSD kernel, Jailhouse
-Hypervisor
+Xen device drivers, FreeBSD kernel, Jailhouse Hypervisor
