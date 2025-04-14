@@ -12,6 +12,8 @@ classoption: "12pt"
 - Email: [me@yadavpratyush.com](mailto:me@yadavpratyush.com)
 - Email: [prati0100@gmail.com](mailto:prati0100@gmail.com)
 - GitHub: [https://github.com/prati0100](https://github.com/prati0100)
+- Phone: +49 1636824023
+- Location: Dresden, Germany
 
 # Experience
 
@@ -23,19 +25,19 @@ August 2022 - Now
 Working on Linux kernel running on AWS's fleet of millions of hosts. Among other
 things, my work includes:
 
-- Performance and security of the Amazon Linux kernel. The distribution is used
-  by millions of hosts both inside AWS and external EC2 customers. Every CPU
-  cycle and every CVE matters.
-- Live patching kernel vulnerabilities. Live patches serve to change unplanned
-  maintenance events into planned ones. Each live patch must be hand crafted to
-  ensure it works as expected on a running system.
-- Userspace memory persistence over kexec. Working on new kernel features that
-  make it faster to get a service live after a reboot.
-- Security of Xen Dom0 hosts used by some EC2 platforms. This involves both
-  reactive and proactive analysis of vulnerabilities.
+- Kexec Handover (KHO). Working with the upstream working group on designing,
+  reviewing patches, testing, proposing
+  [FDBox](https://lore.kernel.org/lkml/20250307005830.65293-1-ptyadav@amazon.de/),
+  a mechanism to persist anonymous file descriptors across KHO, and implementing
+  memfd support.
+- Maintainer for SPI NOR subsystem.
 - Discovered
   [XSA-448/CVE-2023-46848](https://xenbits.xen.org/xsa/advisory-448.html).
   Worked with the Xen Security Team to fix the issue.
+- Implemented Amazon Linux's kernel CVE handling automation to more efficiently
+  track and fix CVEs.
+- Performance and security of the Amazon Linux kernel.
+- Live patching for kernel vulnerabilities.
 
 ## Texas Instruments
 Software Engineer  
@@ -44,7 +46,6 @@ July 2020 - August 2022
 
 Device driver development for Linux and U-Boot for various TI platforms.
 
-- Mainline kernel maintainer for SPI NOR subsystem.
 - Implemented OSPI PHY calibration algorithm support to enable high SPI clock
   speeds. This improved read speeds by about 10x.
 - Converted the OSPI PHY calibration algorithm to use binary search. This nearly
@@ -116,7 +117,7 @@ CGPA: 8.75
 # Skills
 
 ## Working Skills
-C, Python, Linux kernel, Hypervisors, Security, U-Boot, Git
+C, Linux kernel, Embedded Linux, Python, Security, Git
 
 ## Past Experience
-Xen device drivers, FreeBSD kernel, Jailhouse Hypervisor
+U-Boot, Xen device drivers, FreeBSD kernel, Jailhouse Hypervisor
